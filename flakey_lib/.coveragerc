@@ -1,0 +1,4 @@
+[run]
+omit =
+    flakey_lib/tests/*
+    flakey_lib/setup.py

@@ -1,4 +1,0 @@
-[run]
-omit =
-    libMLS/tests/*
-    libMLS/setup.py

@@ -18,9 +18,9 @@
         pname = "FlakeyLib";
         version = "0.1";
 
-        src = ./.;
+        src = ./flakey_lib;
 
-        buildInputs = with python37Packages; [pytestrunner];
+        buildInputs = with python37Packages; [ pytestrunner ];
         checkInputs = with python37Packages; [ pytest pylint pytestcov pytest-dependency pytest-pylint];
 
         preCheck = ''
